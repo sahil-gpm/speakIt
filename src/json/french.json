@@ -1,0 +1,309 @@
+{
+    "Introduction": "French Basics for Beginners",
+    "Description": "French is a widely spoken language in France. It has a rich grammar and vocabulary.",
+    "Code":"FR",
+    "Alphabet": {
+      "Vowels": {
+        "Description": "Vowels are important in French for pronunciation and word formation.",
+        "List": [
+          {
+            "Letter": "A",
+            "Pronunciation": "(ah)",
+            "Meaning": "(A)"
+          },
+          {
+            "Letter": "E",
+            "Pronunciation": "(eh)",
+            "Meaning": "(E)"
+          },
+          {
+            "Letter": "I",
+            "Pronunciation": "(ee)",
+            "Meaning": "(I)"
+          },
+          {
+            "Letter": "O",
+            "Pronunciation": "(oh)",
+            "Meaning": "(O)"
+          },
+          {
+            "Letter": "U",
+            "Pronunciation": "(oo)",
+            "Meaning": "(U)"
+          }
+        ]
+      },
+      "Consonants": {
+        "Description": "Consonants are the building blocks of French words and contribute to different sounds.",
+        "List": [
+          {
+            "Letter": "B",
+            "Pronunciation": "(bay)",
+            "Meaning": "(B)"
+          },
+          {
+            "Letter": "C",
+            "Pronunciation": "(say)",
+            "Meaning": "(C)"
+          },
+          {
+            "Letter": "D",
+            "Pronunciation": "(day)",
+            "Meaning": "(D)"
+          },
+          {
+            "Letter": "F",
+            "Pronunciation": "(eff)",
+            "Meaning": "(F)"
+          },
+          {
+            "Letter": "G",
+            "Pronunciation": "(zhay)",
+            "Meaning": "(G)"
+          },
+          {
+            "Letter": "H",
+            "Pronunciation": "(ahsh)",
+            "Meaning": "(H)"
+          },
+          {
+            "Letter": "J",
+            "Pronunciation": "(zhay)",
+            "Meaning": "(J)"
+          },
+          {
+            "Letter": "K",
+            "Pronunciation": "(kah)",
+            "Meaning": "(K)"
+          },
+          {
+            "Letter": "L",
+            "Pronunciation": "(ell)",
+            "Meaning": "(L)"
+          },
+          {
+            "Letter": "M",
+            "Pronunciation": "(em)",
+            "Meaning": "(M)"
+          },
+          {
+            "Letter": "N",
+            "Pronunciation": "(en)",
+            "Meaning": "(N)"
+          },
+          {
+            "Letter": "P",
+            "Pronunciation": "(pay)",
+            "Meaning": "(P)"
+          },
+          {
+            "Letter": "Q",
+            "Pronunciation": "(koo)",
+            "Meaning": "(Q)"
+          },
+          {
+            "Letter": "R",
+            "Pronunciation": "(air)",
+            "Meaning": "(R)"
+          },
+          {
+            "Letter": "S",
+            "Pronunciation": "(ess)",
+            "Meaning": "(S)"
+          },
+          {
+            "Letter": "T",
+            "Pronunciation": "(tay)",
+            "Meaning": "(T)"
+          },
+          {
+            "Letter": "V",
+            "Pronunciation": "(vay)",
+            "Meaning": "(V)"
+          },
+          {
+            "Letter": "W",
+            "Pronunciation": "(doo-blay vay)",
+            "Meaning": "(W)"
+          },
+          {
+            "Letter": "X",
+            "Pronunciation": "(eeks)",
+            "Meaning": "(X)"
+          },
+          {
+            "Letter": "Y",
+            "Pronunciation": "(ee-grek)",
+            "Meaning": "(Y)"
+          },
+          {
+            "Letter": "Z",
+            "Pronunciation": "(zed)",
+            "Meaning": "(Z)"
+          }
+        ]
+      }
+    },
+    "Common Phrases": {
+      "Description": "Here are some common expressions in French for daily use.",
+      "List": [
+        {
+          "Phrase": "Bonjour",
+          "Pronunciation": "bohn-zhoor",
+          "Meaning": "(Hello)"
+        },
+        {
+          "Phrase": "Au revoir",
+          "Pronunciation": "oh rev-wahr",
+          "Meaning": "(Goodbye)"
+        },
+        {
+          "Phrase": "Bonjour",
+          "Pronunciation": "bohn-zhoor",
+          "Meaning": "(Good morning)"
+        },
+        {
+          "Phrase": "Bonne nuit",
+          "Pronunciation": "bohn nwee",
+          "Meaning": "(Good night)"
+        },
+        {
+          "Phrase": "S'il vous plaît",
+          "Pronunciation": "seel voo pleh",
+          "Meaning": "(Please)"
+        },
+        {
+          "Phrase": "Merci",
+          "Pronunciation": "mehr-see",
+          "Meaning": "(Thank you)"
+        },
+        {
+          "Phrase": "Excusez-moi",
+          "Pronunciation": "ehk-skew-zay mwah",
+          "Meaning": "(Excuse me)"
+        },
+        {
+          "Phrase": "Oui",
+          "Pronunciation": "wee",
+          "Meaning": "(Yes)"
+        },
+        {
+          "Phrase": "Non",
+          "Pronunciation": "nohn",
+          "Meaning": "(No)"
+        },
+        {
+          "Phrase": "Comment ça va?",
+          "Pronunciation": "koh-mah sah va",
+          "Meaning": "(How are you?)"
+        },
+        {
+          "Phrase": "Ça va bien",
+          "Pronunciation": "sah va byen",
+          "Meaning": "(I am well)"
+        },
+        {
+          "Phrase": "Quoi de neuf?",
+          "Pronunciation": "kwah duh neuf",
+          "Meaning": "(What's new?)"
+        },
+        {
+          "Phrase": "Merci beaucoup",
+          "Pronunciation": "mehr-see boh-koo",
+          "Meaning": "(Thank you very much)"
+        },
+        {
+          "Phrase": "J'ai vraiment aimé ça",
+          "Pronunciation": "zhay vray-mahn eh-may sa",
+          "Meaning": "(I really liked that)"
+        },
+        {
+          "Phrase": "Qu'est-ce que c'est?",
+          "Pronunciation": "kes-kuh say",
+          "Meaning": "(What is that?)"
+        },
+        {
+          "Phrase": "Pouvez-vous m'aider?",
+          "Pronunciation": "poo-veh voo mey-dey",
+          "Meaning": "(Can you help me?)"
+        },
+        {
+          "Phrase": "Très bien",
+          "Pronunciation": "treh byen",
+          "Meaning": "(Very good)"
+        },
+        {
+          "Phrase": "Ravi de te rencontrer",
+          "Pronunciation": "rah-vee duh tuh ren-kon-tray",
+          "Meaning": "(Nice to meet you)"
+        },
+        {
+          "Phrase": "Où habites-tu?",
+          "Pronunciation": "oo ah-beet tyoo",
+          "Meaning": "(Where do you live?)"
+        }
+      ]
+    },
+    "Vocabulary": [
+      {
+        "Word": "École",
+        "Pronunciation": "ay-kol",
+        "Meaning": "(School)"
+      },
+      {
+        "Word": "Voiture",
+        "Pronunciation": "vwah-tuhr",
+        "Meaning": "(Car)"
+      },
+      {
+        "Word": "Maison",
+        "Pronunciation": "meh-zon",
+        "Meaning": "(House)"
+      },
+      {
+        "Word": "Livre",
+        "Pronunciation": "leevr",
+        "Meaning": "(Book)"
+      },
+      {
+        "Word": "Fleur",
+        "Pronunciation": "flur",
+        "Meaning": "(Flower)"
+      },
+      {
+        "Word": "Eau",
+        "Pronunciation": "oh",
+        "Meaning": "(Water)"
+      },
+      {
+        "Word": "Nourriture",
+        "Pronunciation": "noo-ree-tur",
+        "Meaning": "(Food)"
+      }
+    ],
+    "Practice": {
+      "Description": "Practice these sentences to improve your French skills.",
+      "Sentences": [
+        {
+          "Sentence": "Ça va bien.",
+          "Translation": "(I am well)"
+        },
+        {
+          "Sentence": "Comment ça va?",
+          "Translation": "(How are you?)"
+        },
+        {
+          "Sentence": "Je m'appelle Jean.",
+          "Translation": "(My name is Jean)"
+        },
+        {
+          "Sentence": "C'est un livre.",
+          "Translation": "(This is a book)"
+        },
+        {
+          "Sentence": "J'ai faim.",
+          "Translation": "(I am hungry)"
+        }
+      ]
+    }
+  }

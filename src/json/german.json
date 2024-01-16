@@ -1,0 +1,309 @@
+{
+  "Introduction": "German Basics for Beginners",
+  "Description": "German is a widely spoken language in Germany. It has a rich grammar and vocabulary.",
+  "Code":"DE",
+  "Alphabet": {
+    "Vowels": {
+      "Description": "Vowels are important in German for pronunciation and word formation.",
+      "List": [
+        {
+          "Letter": "A",
+          "Pronunciation": "(ah)",
+          "Meaning": "(A)"
+        },
+        {
+          "Letter": "E",
+          "Pronunciation": "(eh)",
+          "Meaning": "(E)"
+        },
+        {
+          "Letter": "I",
+          "Pronunciation": "(ee)",
+          "Meaning": "(I)"
+        },
+        {
+          "Letter": "O",
+          "Pronunciation": "(oh)",
+          "Meaning": "(O)"
+        },
+        {
+          "Letter": "U",
+          "Pronunciation": "(oo)",
+          "Meaning": "(U)"
+        }
+      ]
+    },
+    "Consonants": {
+      "Description": "Consonants are the building blocks of German words and contribute to different sounds.",
+      "List": [
+        {
+          "Letter": "B",
+          "Pronunciation": "(bay)",
+          "Meaning": "(B)"
+        },
+        {
+          "Letter": "C",
+          "Pronunciation": "(tsay)",
+          "Meaning": "(C)"
+        },
+        {
+          "Letter": "D",
+          "Pronunciation": "(day)",
+          "Meaning": "(D)"
+        },
+        {
+          "Letter": "F",
+          "Pronunciation": "(eff)",
+          "Meaning": "(F)"
+        },
+        {
+          "Letter": "G",
+          "Pronunciation": "(gay)",
+          "Meaning": "(G)"
+        },
+        {
+          "Letter": "H",
+          "Pronunciation": "(hah)",
+          "Meaning": "(H)"
+        },
+        {
+          "Letter": "J",
+          "Pronunciation": "(yot)",
+          "Meaning": "(J)"
+        },
+        {
+          "Letter": "K",
+          "Pronunciation": "(kah)",
+          "Meaning": "(K)"
+        },
+        {
+          "Letter": "L",
+          "Pronunciation": "(ell)",
+          "Meaning": "(L)"
+        },
+        {
+          "Letter": "M",
+          "Pronunciation": "(em)",
+          "Meaning": "(M)"
+        },
+        {
+          "Letter": "N",
+          "Pronunciation": "(en)",
+          "Meaning": "(N)"
+        },
+        {
+          "Letter": "P",
+          "Pronunciation": "(pay)",
+          "Meaning": "(P)"
+        },
+        {
+          "Letter": "Q",
+          "Pronunciation": "(koo)",
+          "Meaning": "(Q)"
+        },
+        {
+          "Letter": "R",
+          "Pronunciation": "(err)",
+          "Meaning": "(R)"
+        },
+        {
+          "Letter": "S",
+          "Pronunciation": "(ess)",
+          "Meaning": "(S)"
+        },
+        {
+          "Letter": "T",
+          "Pronunciation": "(tay)",
+          "Meaning": "(T)"
+        },
+        {
+          "Letter": "V",
+          "Pronunciation": "(fow)",
+          "Meaning": "(V)"
+        },
+        {
+          "Letter": "W",
+          "Pronunciation": "(vay)",
+          "Meaning": "(W)"
+        },
+        {
+          "Letter": "X",
+          "Pronunciation": "(eeks)",
+          "Meaning": "(X)"
+        },
+        {
+          "Letter": "Y",
+          "Pronunciation": "(uipsilon)",
+          "Meaning": "(Y)"
+        },
+        {
+          "Letter": "Z",
+          "Pronunciation": "(tset)",
+          "Meaning": "(Z)"
+        }
+      ]
+    }
+  },
+  "Common Phrases": {
+    "Description": "Here are some common expressions in German for daily use.",
+    "List": [
+      {
+        "Phrase": "Hallo",
+        "Pronunciation": "hah-loh",
+        "Meaning": "(Hello)"
+      },
+      {
+        "Phrase": "Auf Wiedersehen",
+        "Pronunciation": "owf vee-der-zay-en",
+        "Meaning": "(Goodbye)"
+      },
+      {
+        "Phrase": "Guten Morgen",
+        "Pronunciation": "goo-ten mor-gen",
+        "Meaning": "(Good morning)"
+      },
+      {
+        "Phrase": "Gute Nacht",
+        "Pronunciation": "goo-te nahkht",
+        "Meaning": "(Good night)"
+      },
+      {
+        "Phrase": "Bitte",
+        "Pronunciation": "bih-teh",
+        "Meaning": "(Please)"
+      },
+      {
+        "Phrase": "Danke",
+        "Pronunciation": "dahn-keh",
+        "Meaning": "(Thank you)"
+      },
+      {
+        "Phrase": "Entschuldigung",
+        "Pronunciation": "ent-shool-dee-gung",
+        "Meaning": "(Excuse me)"
+      },
+      {
+        "Phrase": "Ja",
+        "Pronunciation": "yah",
+        "Meaning": "(Yes)"
+      },
+      {
+        "Phrase": "Nein",
+        "Pronunciation": "nine",
+        "Meaning": "(No)"
+      },
+      {
+        "Phrase": "Wie geht es Ihnen?",
+        "Pronunciation": "vee gate ess een-en",
+        "Meaning": "(How are you?)"
+      },
+      {
+        "Phrase": "Mir geht es gut",
+        "Pronunciation": "meer gate ess goot",
+        "Meaning": "(I am well)"
+      },
+      {
+        "Phrase": "Was gibt's Neues?",
+        "Pronunciation": "vahs gibtz noy-es",
+        "Meaning": "(What's new?)"
+      },
+      {
+        "Phrase": "Vielen Dank",
+        "Pronunciation": "fee-len dahnk",
+        "Meaning": "(Thank you very much)"
+      },
+      {
+        "Phrase": "Das hat mir sehr gut gefallen",
+        "Pronunciation": "dahs hat meer zehr goot ge-fahl-en",
+        "Meaning": "(I really liked that)"
+      },
+      {
+        "Phrase": "Wie ist das?",
+        "Pronunciation": "vee ist dahs",
+        "Meaning": "(What is that?)"
+      },
+      {
+        "Phrase": "Können Sie mir helfen?",
+        "Pronunciation": "kuh-nen zee meer helf-en",
+        "Meaning": "(Can you help me?)"
+      },
+      {
+        "Phrase": "Sehr gut",
+        "Pronunciation": "zehr goot",
+        "Meaning": "(Very good)"
+      },
+      {
+        "Phrase": "Schön, dich zu treffen",
+        "Pronunciation": "shern, deekh tsoo treff-en",
+        "Meaning": "(Nice to meet you)"
+      },
+      {
+        "Phrase": "Wo wohnst du?",
+        "Pronunciation": "vo voh-nst doo",
+        "Meaning": "(Where do you live?)"
+      }
+    ]
+  },
+  "Vocabulary": [
+    {
+      "Word": "Schule",
+      "Pronunciation": "shoo-leh",
+      "Meaning": "(School)"
+    },
+    {
+      "Word": "Auto",
+      "Pronunciation": "ow-toh",
+      "Meaning": "(Car)"
+    },
+    {
+      "Word": "Haus",
+      "Pronunciation": "hows",
+      "Meaning": "(House)"
+    },
+    {
+      "Word": "Buch",
+      "Pronunciation": "booh",
+      "Meaning": "(Book)"
+    },
+    {
+      "Word": "Blume",
+      "Pronunciation": "bloom-eh",
+      "Meaning": "(Flower)"
+    },
+    {
+      "Word": "Wasser",
+      "Pronunciation": "vah-ser",
+      "Meaning": "(Water)"
+    },
+    {
+      "Word": "Essen",
+      "Pronunciation": "ess-en",
+      "Meaning": "(Food)"
+    }
+  ],
+  "Practice": {
+    "Description": "Practice these sentences to improve your German skills.",
+    "Sentences": [
+      {
+        "Sentence": "Mir geht es gut.",
+        "Translation": "(I am well)"
+      },
+      {
+        "Sentence": "Wie geht es Ihnen?",
+        "Translation": "(How are you?)"
+      },
+      {
+        "Sentence": "Mein Name ist Hans.",
+        "Translation": "(My name is Hans)"
+      },
+      {
+        "Sentence": "Das ist ein Buch.",
+        "Translation": "(This is a book)"
+      },
+      {
+        "Sentence": "Ich habe Hunger.",
+        "Translation": "(I am hungry)"
+      }
+    ]
+  }
+}

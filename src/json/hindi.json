@@ -1,0 +1,104 @@
+{
+    "Introduction": "Hindi Basics for Beginners",
+    "Description": "Hindi is one of the most widely spoken languages in India. It has a rich script and diverse vocabulary.",
+    "Code":"IN",
+    "Alphabet": {
+        "Vowels": {
+            "Description": "Vowels in Hindi are called 'Swar.' They play a crucial role in pronunciation and word formation.",
+            "List": [
+                "अ (a)",
+                "आ (aa)",
+                "इ (i)",
+                "ई (ee)",
+                "उ (u)",
+                "ऊ (oo)",
+                "ए (e)",
+                "ऐ (ai)",
+                "ओ (o)",
+                "औ (au)",
+                "अं (un)",
+                "अ: (ah)"
+            ]
+        },
+        "Consonants": {
+            "Description": "Consonants in Hindi are known as 'Vyanjan.' They are the building blocks of Hindi words and carry distinct sounds.",
+            "List": [
+                "क (ka)",
+                "ख (kha)",
+                "ग (ga)",
+                "घ (gha)",
+                "च (cha)",
+                "छ (chha)",
+                "ज (ja)",
+                "झ (jha)",
+                "ट (ṭa)",
+                "ठ (ṭha)",
+                "ड (ḍa)",
+                "ढ (ḍha)",
+                "ण (ṇa)",
+                "त (ta)",
+                "थ (tha)",
+                "द (da)",
+                "ध (dha)",
+                "न (na)",
+                "प (pa)",
+                "फ (pha)",
+                "ब (ba)",
+                "भ (bha)",
+                "म (ma)",
+                "य (ya)",
+                "र (ra)",
+                "ल (la)",
+                "व (va)",
+                "श (sha)",
+                "ष (ṣa)",
+                "स (sa)",
+                "ह (ha)",
+                "क्ष (ksha)"
+            ]
+        }
+    },
+    "Common Phrases": {
+        "Description": "Here are some phrases in Hindi that will be useful in everyday conversations",
+        "List": [
+            "नमस्ते (Namaste) - Hello",
+            "अलविदा (Alvida) - Goodbye",
+            "शुभ प्रभात (Shubh Prabhat) - Good morning",
+            "शुभ रात्रि (Shubh Ratri) - Good night",
+            "कृपया (Kripaya) - Please",
+            "धन्यवाद (Dhanyavaad) - Thank you",
+            "क्षमा करें (Kshama karein) - Excuse me",
+            "हाँ (Haan) - Yes",
+            "नहीं (Nahi) - No",
+            "कैसे हो आप? (Kaise ho aap?) - How are you?",
+            "मैं ठीक हूँ (Main theek hoon) - I am fine",
+            "क्या हाल है? (Kya haal hai?) - How are you?",
+            "बहुत धन्यवाद (Bahut Dhanyavaad) - Thank you very much",
+            "मुझे बहुत अच्छा लगा (Mujhe bahut accha laga) - I liked it very much",
+            "यह कैसा है? (Yeh kaisa hai?) - How is this?",
+            "क्या आप मुझे मदद कर सकते हैं? (Kya aap mujhe madad kar sakte hain?) - Can you help me?",
+            "बहुत बढ़िया (Bahut badiya) - Very good",
+            "मैं आपसे मिलकर खुश हुआ (Main aapse milkar khush hua) - Nice to meet you",
+            "कहाँ रहते हो? (Kahan rehte ho?) - Where do you live?"
+        ]
+    },
+    "Vocabulary": [
+        "स्कूल (School) - School",
+        "गाड़ी (Gaadi) - Car",
+        "घर (Ghar) - House",
+        "पुस्तक (Pustak) - Book",
+        "फूल (Phool) - Flower",
+        "पानी (Paani) - Water",
+        "खाना (Khana) - Food"
+    ],
+    "Practice": {
+        "Description": "Practice these sentences to improve your Hindi language skills.",
+        "Sentences": [
+            "मैं अच्छा हूँ। (Main accha hoon) - I am good.",
+            "तुम कैसे हो? (Tum kaise ho?) - How are you?",
+            "मेरा नाम साहिल है। (Mera naam sahil hai) - My name is sahil.",
+            "यह किताब है। (Yeh kitaab hai) - This is a book.",
+            "मैं भूखा हूँ। (Main bhukha hoon) - I am hungry."
+        ]
+    }
+}
