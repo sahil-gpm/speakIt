@@ -74,7 +74,7 @@ const Translatesentences = () => {
     return (
         <>
             {/* showing current score  */}
-            <div className='text-center mt-[10%] lg:mt-[3%] text-xl md:text-3xl font-bold text-text_start'>Score : {currentSentenceIndex} / 20</div>
+            <div className='text-center mt-[10%] lg:mt-[3%] text-xl md:text-3xl font-bold text-text_start py-4'>Score : {currentSentenceIndex} / 20</div>
 
             {/* showing heading as per the base language  */}
             <div className="heading text-xl md:text-3xl font-bold text-center mt-3">
@@ -91,10 +91,10 @@ const Translatesentences = () => {
                     {sequence ? sequence : "Your answer here ↴"}
                 </div>
 
-                <div className="options w-[80%] mx-auto flex flex-wrap justify-center items-center gap-3 lg:gap-8 mt-[6%] mb-8">
+                <div className="options w-[80%] mx-auto flex flex-wrap justify-center items-center gap-4 mt-[6%] mb-8">
                     {(sentences?.[currentSentenceIndex]?.options?.[`${learningLanguage}`])?.map((option, i) => {
                         return <div key={i}
-                            className='text-base lg:text-xl text-white text-center w-[43%] lg:w-[15%] font-semibold px-2 py-3 rounded-full border transition-all duration-300 bg-sub cursor-pointer hover:bg-text_start hover:text-white'
+                            className='text-base lg:text-xl text-white text-center w-[43%] lg:w-[15%] font-semibold px-2 py-2 rounded-full border transition-all duration-300 bg-sub cursor-pointer hover:bg-text_start hover:text-white'
                             onClick={() => {
                                 setSequence(sequence.concat(option + " "))
                             }}

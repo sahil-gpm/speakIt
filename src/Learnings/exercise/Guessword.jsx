@@ -70,7 +70,7 @@ const Guessword = () => {
         <>
 
             {/* showing current score  */}
-            <div className='text-center mt-[15%] lg:mt-[3%] text-xl md:text-3xl font-bold text-text_start'>Score : {currentWordIndex}</div>
+            <div className='text-center mt-[15%] lg:mt-[3%] text-xl md:text-3xl font-bold text-text_start py-4'>Score : {currentWordIndex}</div>
 
             {/* showing heading as per the base language  */}
             <div className="heading text-xl md:text-3xl font-bold text-center mt-3">
@@ -83,9 +83,9 @@ const Guessword = () => {
                     {(words?.[currentWordIndex]?.word?.[`${baseLanguage}`])}
                 </div>
 
-                <div className="options w-[50%] mx-auto flex flex-wrap justify-center items-center gap-8 mt-10">
+                <div className="options w-[50%] mx-auto flex flex-wrap justify-center items-center gap-4 mt-10">
                     {(words?.[currentWordIndex]?.options?.[`${learningLanguage}`])?.map((option) => {
-                        return <div key={option} className='text-xl xl:text-4xl text-center w-full lg:w-[60%] font-semibold px-5 py-3 rounded-lg border transition-all duration-300 border-text_start cursor-pointer
+                        return <div key={option} className='text-xl xl:text-4xl text-center w-full lg:w-[60%] font-semibold px-5 py-2 rounded-lg border transition-all duration-300 border-text_start cursor-pointer
                          hover:bg-text_start 
                          hover:text-white'
                             onClick={() => checkAnswer(option)}>
