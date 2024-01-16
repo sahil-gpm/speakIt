@@ -53,7 +53,7 @@ const Translatesentences = () => {
 
     const updateProgress = async () => {
         try {
-            const response = await axios.post(process.env.REACT_APP_BACKEND_URL + `/api/proress/set-${learningLanguage}-progress`, { email: userData.email, score: currentSentenceIndex })
+            const response = await axios.post(process.env.REACT_APP_BACKEND_URL + `/api/progress/set-${learningLanguage}-progress`, { email: userData.email, score: currentSentenceIndex })
             if (response.data.success) {
                 toast.success("Progress updated")
             }
@@ -91,7 +91,7 @@ const Translatesentences = () => {
                 </div>
 
                 <div className="options w-[80%] mx-auto flex flex-wrap justify-center items-center gap-4 mt-[6%] mb-8">
-                    {(sentences?.[currentSentenceIndex]?.options?.[`${learningLanguage}`]).length}
+                    {sentences?.length}
                     {(sentences?.[currentSentenceIndex]?.options?.[`${learningLanguage}`])?.map((option, i) => {
                         return <div key={i}
                             className='text-base lg:text-xl text-white text-center w-[43%] lg:w-[15%] font-semibold px-2 py-2 rounded-full border transition-all duration-300 bg-sub cursor-pointer hover:bg-text_start hover:text-white'
