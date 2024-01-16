@@ -49,7 +49,7 @@ const Guessword = () => {
 
     const updateProgress = async () => {
         try {
-            const response = await axios.post(`http://localhost:3001/api/progress/set-${learningLanguage}-progress`, { email: userData.email, score: currentWordIndex })
+            const response = await axios.post(process.env.REACT_APP_BACKEND_URL + `/set-${learningLanguage}-progress`, { email: userData.email, score: currentWordIndex })
             if (response.data.success) {
                 toast.success("Progress updated")
             }
@@ -58,7 +58,7 @@ const Guessword = () => {
         }
 
         //navigate to the next stage
-        navigate("/translate-sentences")
+        navigate("/")
     }
 
     //fetch questions with useEffect

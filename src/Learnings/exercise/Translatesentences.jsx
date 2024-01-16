@@ -11,7 +11,7 @@ import toast from 'react-hot-toast'
 
 const Translatesentences = () => {
 
-    const { learningLanguage, baseLanguage, speak ,userData} = useContext(usercontext) //context 
+    const { learningLanguage, baseLanguage, speak, userData } = useContext(usercontext) //context 
     const [currentSentenceIndex, setCurrentSentenceIndex] = useState(0) //index of current question
     const [celebration, setCelebration] = useState(false) //signal for showing celebration
     const [sentences, setSentneces] = useState([]) //storing the questions 
@@ -53,10 +53,9 @@ const Translatesentences = () => {
 
     const updateProgress = async () => {
         try {
-            const response = await axios.post(`http://localhost:3001/api/progress/set-${learningLanguage}-progress`, { email: userData.email, score: currentSentenceIndex })
+            const response = await axios.post(process.env.REACT_APP_BACKEND_URL + `/set-${learningLanguage}-progress`, { email: userData.email, score: currentSentenceIndex })
             if (response.data.success) {
-                                toast.success("Progress updated")
-
+                toast.success("Progress updated")
             }
         } catch (e) {
             toast.error("Some error occurred while progress evaluation")
@@ -100,6 +99,7 @@ const Translatesentences = () => {
                             }}
                         >
                             {option}
+                            hello
                         </div>
                     })}
                 </div>
