@@ -99,7 +99,6 @@ const Translatesentences = () => {
                             }}
                         >
                             {option}
-                            hello
                         </div>
                     })}
                 </div>
