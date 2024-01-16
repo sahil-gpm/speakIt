@@ -70,7 +70,7 @@ const Guessword = () => {
         <>
 
             {/* showing current score  */}
-            <div className='text-center mt-[15%] lg:mt-[3%] text-xl md:text-3xl font-bold text-text_start'>Score : {currentWordIndex} / 30</div>
+            <div className='text-center mt-[15%] lg:mt-[3%] text-xl md:text-3xl font-bold text-text_start'>Score : {currentWordIndex}</div>
 
             {/* showing heading as per the base language  */}
             <div className="heading text-xl md:text-3xl font-bold text-center mt-3">
@@ -103,7 +103,7 @@ const Guessword = () => {
                 msg={"Oops! Incorrect answer😕"}
                 des={"Unfortunately😕! you can't continue further, choose any one of the below options to continue ➡️"}
                 onRestart={() => {
-                    if (currentWordIndex < 30) {
+                    if (currentWordIndex < 22) {
                         setCurrentWordIndex(0)
                         setHandleWrong(false)
                     }
@@ -112,7 +112,7 @@ const Guessword = () => {
             />}
 
             {
-                currentWordIndex === 30 && <Gamecleared
+                currentWordIndex === 22 && <Gamecleared
                     msg={"Successfully 💪 guessed all the words"}
                     des={"Congratulations 🎉 you have successfully guessed all the words in " + learningLanguage + " and now you can continue will further levels"}
                     onContinue={updateProgress}
@@ -120,7 +120,7 @@ const Guessword = () => {
             }
 
             {/* quit button  */}
-            {currentWordIndex < 30 && <div className='text-center mt-8'>
+            {currentWordIndex < 22 && <div className='text-center mt-8'>
                 <Button text={"Quit"} textColor={"white"} backgroundColor={"crimson"} width={150} padding={10} borderRadius={4} onClick={updateProgress} />
             </div>}
         </>
