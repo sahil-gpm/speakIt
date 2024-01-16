@@ -91,7 +91,7 @@ const Translatesentences = () => {
                 </div>
 
                 <div className="options w-[80%] mx-auto flex flex-wrap justify-center items-center gap-4 mt-[6%] mb-8">
-                    {sentences?.[currentSentenceIndex]?.options?.[`${learningLanguage}`]}
+                    {(sentences?.[currentSentenceIndex]?.options?.[`${learningLanguage}`]).length}
                     {(sentences?.[currentSentenceIndex]?.options?.[`${learningLanguage}`])?.map((option, i) => {
                         return <div key={i}
                             className='text-base lg:text-xl text-white text-center w-[43%] lg:w-[15%] font-semibold px-2 py-2 rounded-full border transition-all duration-300 bg-sub cursor-pointer hover:bg-text_start hover:text-white'
