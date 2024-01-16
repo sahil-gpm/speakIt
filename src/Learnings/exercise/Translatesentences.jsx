@@ -53,7 +53,7 @@ const Translatesentences = () => {
 
     const updateProgress = async () => {
         try {
-            const response = await axios.post(process.env.REACT_APP_BACKEND_URL + `api/proress/set-${learningLanguage}-progress`, { email: userData.email, score: currentSentenceIndex })
+            const response = await axios.post(process.env.REACT_APP_BACKEND_URL + `/api/proress/set-${learningLanguage}-progress`, { email: userData.email, score: currentSentenceIndex })
             if (response.data.success) {
                 toast.success("Progress updated")
             }
