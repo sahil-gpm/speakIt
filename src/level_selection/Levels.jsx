@@ -10,7 +10,7 @@ const Levels = () => {
   const navigate = useNavigate("/")
 
   return (
-    <div className='level-selection-wrapper bg-text_light w-[95%] lg:w-[65%] py-20 rounded-xl mx-auto mt-[11%]'>
+    <div className='level-selection-wrapper bg-text_light w-[95%] lg:w-[65%] py-20 rounded-xl mx-auto mt-[11%] lg:mt-[5%]'>
 
       <div className="level-heading text-start lg:text-center text-xl lg:text-4xl font-bold flex justify-center items-center gap-3 lg:gap-5">
 
