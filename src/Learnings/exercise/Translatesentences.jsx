@@ -125,7 +125,7 @@ const Translatesentences = () => {
                 des={"Unfortunately😕! you can't continue further, choose any one of the below options to continue ➡️"}
                 onRestart={() => {
                     if (currentSentenceIndex < 20) {
-                        setCurrentSentenceIndex(0)
+                        setCurrentSentenceIndex(1)
                         setHandleWrong(false)
                         setSequence("")
                     }
