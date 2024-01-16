@@ -12,7 +12,7 @@ import toast from 'react-hot-toast'
 const Translatesentences = () => {
 
     const { learningLanguage, baseLanguage, speak, userData } = useContext(usercontext) //context 
-    const [currentSentenceIndex, setCurrentSentenceIndex] = useState(0) //index of current question
+    const [currentSentenceIndex, setCurrentSentenceIndex] = useState(1) //index of current question
     const [celebration, setCelebration] = useState(false) //signal for showing celebration
     const [sentences, setSentneces] = useState([]) //storing the questions 
     const [handleWrong, setHandleWrong] = useState(false) //if wrong answer is found
